@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #662ea6;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 20px;
+}
+
+.navbar a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17;
+}
+
+.navbar a:hover {
+    background-color: #9564cc;
+    color: #000;
+}
+
+.navbar a.active {
+    background-color: #8840db;
+    color: #fff;
+}
