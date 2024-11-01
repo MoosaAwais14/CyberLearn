@@ -23,7 +23,6 @@ html::before{
 }
 
 .navbar {
-    margin-top: 20px;
     border-radius: 25px;
     overflow: hidden;
     background-color: #481485;
@@ -34,13 +33,14 @@ html::before{
     width: 75%;
     z-index: 1;
     position: relative;
+    transform: translate(15.5%, 20px);
 }
 
 .navbar a {
     float: left;
     color: #fff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     font-size: 17;
 }
@@ -54,4 +54,25 @@ html::before{
     background-color: #390e6b;
     color: #fff;
 }
+
+.index-square{
+    font-weight: 800;
+    font-size: 35px;
+    color: #fff;
+    background-color: rgb(83, 12, 126);
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transform: translate(88%, 0%);
+    overflow: hidden;
+}
+
+
 
