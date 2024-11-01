@@ -4,5 +4,5 @@
 <li>W3Schools CSS Web Fonts: https://www.w3schools.com/css/css3_fonts.asp</li>
 <li>GreatStack Text Typing Animation Tutorial: https://www.youtube.com/watch?v=qEcXe51-ZTw
 <li>Digital Ocean Background Opacity Tutorial (appended for brightness): https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity</li>
-<ul>Used mattboldt's Typing Animation Library: https://github.com/mattboldt/typed.js/</ul>
+<ol>Used mattboldt's Typing Animation Library: https://github.com/mattboldt/typed.js/</ol>
 </list>
