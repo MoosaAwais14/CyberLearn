@@ -44,19 +44,19 @@ if (currentPage.includes("index.html"))
     typewriter("CyberLearn!");
 
 if (currentPage.includes("phish.html"))
-    typewriter("Phising?")
+    typewriter("Phising?");
 
 if (currentPage.includes("threats.html"))
-    typewriter("Potential Threats?")
+    typewriter("Potential Threats?");
 
 if (currentPage.includes("triad.html"))
-    typewriter("CIA Triad?")
+    typewriter("CIA Triad?");
 
 if (currentPage.includes("pw.html"))
-    typewriter("Password?")
+    typewriter("Password?");
 
 if (currentPage.includes("authen.html"))
-    typewriter("Authentication?")
+    typewriter("Authentication?");
 
 if (currentPage.includes("3states.html"))
-    typewriter("3 States of Data?")
+    typewriter("3 States of Data?");
