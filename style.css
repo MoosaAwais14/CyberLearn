@@ -5,7 +5,7 @@ html {
     font-family: "Orbitron", sans-serif;
 }
 
-html::before{
+html::before {
     content: ' ';
     display: block;
     position: absolute;
@@ -18,7 +18,7 @@ html::before{
     background-size: cover;
 }
 
-#navbar{
+#navbar {
     display: none;
 }
 
@@ -48,6 +48,7 @@ html::before{
 .navbar a:hover {
     background-color: #6716bd;
     color: #000;
+    cursor: pointer;
 }
 
 .navbar a.active {
@@ -55,11 +56,11 @@ html::before{
     color: #fff;
 }
 
-.index-square{
+.placeholder {
     font-weight: 800;
     font-size: 35px;
     color: #fff;
-    background-color: rgb(83, 12, 126);
+    background-color: #481485;
     border-color: #fff;
     border-style: solid;
     border-radius: 10px;
@@ -69,10 +70,26 @@ html::before{
     margin-top: 10%;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    transform: translate(88%, 0%);
+    justify-content: center;
+    transform: translate(90%, 0%);
     overflow: hidden;
+}
+
+#ph {
+    filter: brightness(70%);
+    transition: filter 0.5s ease;
+}
+
+#ph:hover {
+    filter: brightness(120%);
+    cursor: pointer;
 }
 
 
 
+.auto-type {
+    color: #fff;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+}
