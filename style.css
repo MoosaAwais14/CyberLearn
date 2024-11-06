@@ -1,4 +1,4 @@
-/* html {
+html {
     height: 100%;
     width: 100%;
     position: relative;
@@ -13,8 +13,8 @@ html::before {
     top: 0;
     width: 100%;
     height: 100%;
-    filter: brightness(50%);
-    background-image: url('bg.png');
+    filter: brightness(60%);
+    background-image: url('backg.png');
     background-size: cover;
 }
 
@@ -85,11 +85,69 @@ html::before {
     cursor: pointer;
 }
 
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #481485;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transform: scale(0);
+    transition: transform 0.5s ease;
+    overflow: hidden;
+}
 
+.content.show {
+    transform: scale(1);
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content a:visited{
+    color: #fff;
+}
+
+.content a:active{
+    color: #fff;
+}
+
+.content a:hover{
+    color: #fff;
+}
+
+h1 {
+    display: block;
+    width: 45%;
+    margin-left: 1%;
+    margin-right: 20px;
+}
+
+.content p {
+    margin-right: 40px;
+}
+
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
 
 .auto-type {
-    color: #fff;
     text-decoration: underline;
     align-items: center;
     justify-content: center;
-} */
+}
